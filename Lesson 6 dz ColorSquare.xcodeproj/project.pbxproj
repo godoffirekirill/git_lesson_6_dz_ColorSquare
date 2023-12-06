@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED28D75A2AB328BD00D8011D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28D7592AB328BD00D8011D /* AppDelegate.swift */; };
+		ED28D75C2AB328BD00D8011D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28D75B2AB328BD00D8011D /* SceneDelegate.swift */; };
+		ED28D75E2AB328BD00D8011D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28D75D2AB328BD00D8011D /* ViewController.swift */; };
+		ED28D7612AB328BD00D8011D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED28D75F2AB328BD00D8011D /* Main.storyboard */; };
+		ED28D7632AB328BE00D8011D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED28D7622AB328BE00D8011D /* Assets.xcassets */; };
+		ED28D7662AB328BE00D8011D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED28D7642AB328BE00D8011D /* LaunchScreen.storyboard */; };
+		ED28D7712AB328BE00D8011D /* Lesson_6_dz_ColorSquareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28D7702AB328BE00D8011D /* Lesson_6_dz_ColorSquareTests.swift */; };
+		ED28D77B2AB328BF00D8011D /* Lesson_6_dz_ColorSquareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28D77A2AB328BF00D8011D /* Lesson_6_dz_ColorSquareUITests.swift */; };
+		ED28D77D2AB328BF00D8011D /* Lesson_6_dz_ColorSquareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28D77C2AB328BF00D8011D /* Lesson_6_dz_ColorSquareUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED28D76D2AB328BE00D8011D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED28D74E2AB328BD00D8011D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED28D7552AB328BD00D8011D;
+			remoteInfo = "Lesson 6 dz ColorSquare";
+		};
+		ED28D7772AB328BF00D8011D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED28D74E2AB328BD00D8011D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED28D7552AB328BD00D8011D;
+			remoteInfo = "Lesson 6 dz ColorSquare";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED28D7562AB328BD00D8011D /* Lesson 6 dz ColorSquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 6 dz ColorSquare.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED28D7592AB328BD00D8011D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED28D75B2AB328BD00D8011D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED28D75D2AB328BD00D8011D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED28D7602AB328BD00D8011D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED28D7622AB328BE00D8011D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED28D7652AB328BE00D8011D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED28D7672AB328BE00D8011D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED28D76C2AB328BE00D8011D /* Lesson 6 dz ColorSquareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 6 dz ColorSquareTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED28D7702AB328BE00D8011D /* Lesson_6_dz_ColorSquareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson_6_dz_ColorSquareTests.swift; sourceTree = "<group>"; };
+		ED28D7762AB328BE00D8011D /* Lesson 6 dz ColorSquareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 6 dz ColorSquareUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED28D77A2AB328BF00D8011D /* Lesson_6_dz_ColorSquareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson_6_dz_ColorSquareUITests.swift; sourceTree = "<group>"; };
+		ED28D77C2AB328BF00D8011D /* Lesson_6_dz_ColorSquareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson_6_dz_ColorSquareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED28D7532AB328BD00D8011D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED28D7692AB328BE00D8011D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED28D7732AB328BE00D8011D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED28D74D2AB328BD00D8011D = {
+			isa = PBXGroup;
+			children = (
+				ED28D7582AB328BD00D8011D /* Lesson 6 dz ColorSquare */,
+				ED28D76F2AB328BE00D8011D /* Lesson 6 dz ColorSquareTests */,
+				ED28D7792AB328BF00D8011D /* Lesson 6 dz ColorSquareUITests */,
+				ED28D7572AB328BD00D8011D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED28D7572AB328BD00D8011D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED28D7562AB328BD00D8011D /* Lesson 6 dz ColorSquare.app */,
+				ED28D76C2AB328BE00D8011D /* Lesson 6 dz ColorSquareTests.xctest */,
+				ED28D7762AB328BE00D8011D /* Lesson 6 dz ColorSquareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED28D7582AB328BD00D8011D /* Lesson 6 dz ColorSquare */ = {
+			isa = PBXGroup;
+			children = (
+				ED28D7592AB328BD00D8011D /* AppDelegate.swift */,
+				ED28D75B2AB328BD00D8011D /* SceneDelegate.swift */,
+				ED28D75D2AB328BD00D8011D /* ViewController.swift */,
+				ED28D75F2AB328BD00D8011D /* Main.storyboard */,
+				ED28D7622AB328BE00D8011D /* Assets.xcassets */,
+				ED28D7642AB328BE00D8011D /* LaunchScreen.storyboard */,
+				ED28D7672AB328BE00D8011D /* Info.plist */,
+			);
+			path = "Lesson 6 dz ColorSquare";
+			sourceTree = "<group>";
+		};
+		ED28D76F2AB328BE00D8011D /* Lesson 6 dz ColorSquareTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED28D7702AB328BE00D8011D /* Lesson_6_dz_ColorSquareTests.swift */,
+			);
+			path = "Lesson 6 dz ColorSquareTests";
+			sourceTree = "<group>";
+		};
+		ED28D7792AB328BF00D8011D /* Lesson 6 dz ColorSquareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED28D77A2AB328BF00D8011D /* Lesson_6_dz_ColorSquareUITests.swift */,
+				ED28D77C2AB328BF00D8011D /* Lesson_6_dz_ColorSquareUITestsLaunchTests.swift */,
+			);
+			path = "Lesson 6 dz ColorSquareUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED28D7552AB328BD00D8011D /* Lesson 6 dz ColorSquare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED28D7802AB328BF00D8011D /* Build configuration list for PBXNativeTarget "Lesson 6 dz ColorSquare" */;
+			buildPhases = (
+				ED28D7522AB328BD00D8011D /* Sources */,
+				ED28D7532AB328BD00D8011D /* Frameworks */,
+				ED28D7542AB328BD00D8011D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lesson 6 dz ColorSquare";
+			productName = "Lesson 6 dz ColorSquare";
+			productReference = ED28D7562AB328BD00D8011D /* Lesson 6 dz ColorSquare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED28D76B2AB328BE00D8011D /* Lesson 6 dz ColorSquareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED28D7832AB328BF00D8011D /* Build configuration list for PBXNativeTarget "Lesson 6 dz ColorSquareTests" */;
+			buildPhases = (
+				ED28D7682AB328BE00D8011D /* Sources */,
+				ED28D7692AB328BE00D8011D /* Frameworks */,
+				ED28D76A2AB328BE00D8011D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED28D76E2AB328BE00D8011D /* PBXTargetDependency */,
+			);
+			name = "Lesson 6 dz ColorSquareTests";
+			productName = "Lesson 6 dz ColorSquareTests";
+			productReference = ED28D76C2AB328BE00D8011D /* Lesson 6 dz ColorSquareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED28D7752AB328BE00D8011D /* Lesson 6 dz ColorSquareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED28D7862AB328BF00D8011D /* Build configuration list for PBXNativeTarget "Lesson 6 dz ColorSquareUITests" */;
+			buildPhases = (
+				ED28D7722AB328BE00D8011D /* Sources */,
+				ED28D7732AB328BE00D8011D /* Frameworks */,
+				ED28D7742AB328BE00D8011D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED28D7782AB328BF00D8011D /* PBXTargetDependency */,
+			);
+			name = "Lesson 6 dz ColorSquareUITests";
+			productName = "Lesson 6 dz ColorSquareUITests";
+			productReference = ED28D7762AB328BE00D8011D /* Lesson 6 dz ColorSquareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED28D74E2AB328BD00D8011D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					ED28D7552AB328BD00D8011D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					ED28D76B2AB328BE00D8011D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = ED28D7552AB328BD00D8011D;
+					};
+					ED28D7752AB328BE00D8011D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = ED28D7552AB328BD00D8011D;
+					};
+				};
+			};
+			buildConfigurationList = ED28D7512AB328BD00D8011D /* Build configuration list for PBXProject "Lesson 6 dz ColorSquare" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED28D74D2AB328BD00D8011D;
+			productRefGroup = ED28D7572AB328BD00D8011D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED28D7552AB328BD00D8011D /* Lesson 6 dz ColorSquare */,
+				ED28D76B2AB328BE00D8011D /* Lesson 6 dz ColorSquareTests */,
+				ED28D7752AB328BE00D8011D /* Lesson 6 dz ColorSquareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED28D7542AB328BD00D8011D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED28D7662AB328BE00D8011D /* LaunchScreen.storyboard in Resources */,
+				ED28D7632AB328BE00D8011D /* Assets.xcassets in Resources */,
+				ED28D7612AB328BD00D8011D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED28D76A2AB328BE00D8011D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED28D7742AB328BE00D8011D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED28D7522AB328BD00D8011D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED28D75E2AB328BD00D8011D /* ViewController.swift in Sources */,
+				ED28D75A2AB328BD00D8011D /* AppDelegate.swift in Sources */,
+				ED28D75C2AB328BD00D8011D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED28D7682AB328BE00D8011D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED28D7712AB328BE00D8011D /* Lesson_6_dz_ColorSquareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED28D7722AB328BE00D8011D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED28D77D2AB328BF00D8011D /* Lesson_6_dz_ColorSquareUITestsLaunchTests.swift in Sources */,
+				ED28D77B2AB328BF00D8011D /* Lesson_6_dz_ColorSquareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED28D76E2AB328BE00D8011D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED28D7552AB328BD00D8011D /* Lesson 6 dz ColorSquare */;
+			targetProxy = ED28D76D2AB328BE00D8011D /* PBXContainerItemProxy */;
+		};
+		ED28D7782AB328BF00D8011D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED28D7552AB328BD00D8011D /* Lesson 6 dz ColorSquare */;
+			targetProxy = ED28D7772AB328BF00D8011D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED28D75F2AB328BD00D8011D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED28D7602AB328BD00D8011D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED28D7642AB328BE00D8011D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED28D7652AB328BE00D8011D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED28D77E2AB328BF00D8011D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED28D77F2AB328BF00D8011D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED28D7812AB328BF00D8011D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lesson 6 dz ColorSquare/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "classes.Lesson-6-dz-ColorSquare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED28D7822AB328BF00D8011D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lesson 6 dz ColorSquare/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "classes.Lesson-6-dz-ColorSquare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED28D7842AB328BF00D8011D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "classes.Lesson-6-dz-ColorSquareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson 6 dz ColorSquare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lesson 6 dz ColorSquare";
+			};
+			name = Debug;
+		};
+		ED28D7852AB328BF00D8011D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "classes.Lesson-6-dz-ColorSquareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson 6 dz ColorSquare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lesson 6 dz ColorSquare";
+			};
+			name = Release;
+		};
+		ED28D7872AB328BF00D8011D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "classes.Lesson-6-dz-ColorSquareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lesson 6 dz ColorSquare";
+			};
+			name = Debug;
+		};
+		ED28D7882AB328BF00D8011D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "classes.Lesson-6-dz-ColorSquareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lesson 6 dz ColorSquare";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED28D7512AB328BD00D8011D /* Build configuration list for PBXProject "Lesson 6 dz ColorSquare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED28D77E2AB328BF00D8011D /* Debug */,
+				ED28D77F2AB328BF00D8011D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED28D7802AB328BF00D8011D /* Build configuration list for PBXNativeTarget "Lesson 6 dz ColorSquare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED28D7812AB328BF00D8011D /* Debug */,
+				ED28D7822AB328BF00D8011D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED28D7832AB328BF00D8011D /* Build configuration list for PBXNativeTarget "Lesson 6 dz ColorSquareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED28D7842AB328BF00D8011D /* Debug */,
+				ED28D7852AB328BF00D8011D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED28D7862AB328BF00D8011D /* Build configuration list for PBXNativeTarget "Lesson 6 dz ColorSquareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED28D7872AB328BF00D8011D /* Debug */,
+				ED28D7882AB328BF00D8011D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED28D74E2AB328BD00D8011D /* Project object */;
+}
